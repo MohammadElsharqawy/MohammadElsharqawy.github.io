@@ -1,8 +1,8 @@
     try{
       var savedTheme=localStorage.getItem("theme");
-      document.documentElement.setAttribute("data-theme",savedTheme === "light" ? "light" : "dark");
+      document.documentElement.setAttribute("data-theme", savedTheme === "dark" ? "dark" : "light");
     }catch(error){}
-
+    
 function initializePage() {
     (function(){
       var root=document.documentElement;
