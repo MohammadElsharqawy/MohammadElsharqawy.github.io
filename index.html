@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohammad Elsharqawy</title>
+  <meta name="description" content="Mohammad Elsharqawy — Teaching Assistant and Computer Engineering researcher working on efficient, reliable, and scalable ML systems and cloud infrastructure reliability.">
+  <meta name="author" content="Mohammad Elsharqawy">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Mohammad Elsharqawy">
+  <meta property="og:description" content="LLM Systems · Distributed Systems · AI Infrastructure">
+  <meta property="og:image" content="%BASE_URL%images/Mohammad_Elsharqawy.jpeg">
+
+  <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+
+
+  <script type="module" src="./script.js"></script>
+</head>
+
+<body>
+  <button id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
+    <span class="sun" aria-hidden="true">☾</span>
+    <span class="moon" aria-hidden="true">☀</span>
+  </button>
+
+  <div class="container">
+    <header>
+      <div class="profile">
+        <div class="profile-copy">
+          <h1>Mohammad Elsharqawy</h1>
+          <p class="affil">Teaching Assistant in Computer Engineering</p>
+          <p class="affil">Tanta University, Egypt</p>
+
+          <div class="intro-copy">
+            <p class="intro">
+              I am a full-time Teaching Assistant at Tanta University.
+            </p>
+            <p class="intro">
+              My research interests lie at the intersection of AI and systems,
+              focusing on efficient, scalable, reliable, and sustainable computing,
+              including AI workloads in resource-constrained edge environments.
+              I am particularly interested in LLM serving, agentic AI systems, and AI infrastructure, 
+              with an emphasis on workload-aware caching, scheduling, and resource management.
+            </p>
+            
+            <p class="intro">
+              I previously worked with Prof. Tianyin Xu at the University of Illinois Urbana-Champaign on systems reliability,
+              contributing to <a href="https://sregym.com/" target="_blank" rel="noopener">SREGym</a>,
+              a benchmark for evaluating AI agents on real-world site reliability engineering tasks.
+              [<a href="https://sregym.com/blog/postmortems-to-sre-benchmarks" target="_blank" rel="noopener">Blog</a>]
+            </p>
+          </div>
+        </div>
+
+        <figure class="portrait">
+          <div class="portrait-frame">
+            <span aria-hidden="true">ME</span>
+            <img src="%BASE_URL%images/Mohammad_Elsharqawy.jpeg" alt="Mohammad Elsharqawy standing beside the Nile" onerror="this.style.display='none'">
+          </div>
+          <figcaption>Based in Egypt</figcaption>
+        </figure>
+      </div>
+
+      <p class="contact">
+     <a href="mailto:mohammad_elsharqawy@f-eng.tanta.edu.eg">mohammad_elsharqawy at f-eng.tanta.edu.eg</a> ·
+      <a href="https://github.com/MohammadElsharqawy" target="_blank" rel="noopener">GitHub</a> ·
+      <a class="button button-small nav-cv" href="%BASE_URL%documents/Mohammad_Elsharqawy_CV.pdf" target="_blank" rel="noopener noreferrer">CV </a> ·
+      <a href="https://www.linkedin.com/in/mohammad-elsharqawy-a86991190/" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+      <p class="status">Seeking Ph.D. opportunities in computer systems and ML systems.</p>
+      </header>
+
+
+    <main>
+      <section id="interests" aria-labelledby="interests-title">
+        <p class="section-eyebrow">01 / Research interests</p>
+        <h2 id="interests-title">Research Interests</h2>
+        <p>My research interests concern the design and evaluation of efficient, scalable, reliable, and sustainable computing systems.</p>
+        <div class="research-grid">
+          <article class="research-card">
+            <p class="research-label">Efficient inference & agent execution</p>
+            <h3>LLM Systems</h3>
+            <p>
+              Efficient LLM serving and agentic systems, focusing on
+              workload-aware caching, scheduling, memory management,
+              multi-agent orchestration, and reasoning reuse.
+            </p>
+            <p class="research-tags">
+              LLM serving · Agentic AI · KV-cache ·
+              Workload-aware caching · Reasoning reuse · Efficient agent execution
+            </p>
+          </article>
+          <article class="research-card">
+            <p class="research-label">Reliability &amp; privacy</p>
+            <h3>Distributed Systems</h3>
+            <p>The intersection of AI and systems in resource-constrained edge environments, with attention to efficiency, reliability, scalability, and privacy.</p>
+            <p class="research-tags">Edge AI · Distributed computing · Reliability · Federated Learning</p>
+          </article>
+          <article class="research-card">
+            <p class="research-label">Sustainable computing</p>
+            <h3>AI Infrastructure</h3>
+            <p>GPU computing, resource management, and sustainable, scalable infrastructure for demanding AI workloads.</p>
+            <p class="research-tags">GPU computing · Resource management · Sustainability</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <strong>Tanta University</strong>
+            <span class="date">— B.Sc. in Computer Engineering and Automatic Control, October 2018–June 2023</span><br>
+            Excellent with honors · Ranked 4th of 150+ students<br>
+            <span class="muted">Selected for a full-time, permanent Teaching Assistant appointment awarded to top graduates.</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contributions">
+        <h2>Research Software Contributions</h2>
+        <p>
+          Contributions to libCacheSim and SREGym.
+        </p>
+
+        <article class="highlight">
+          <div class="meta">libCacheSim · High-performance cache library and simulator · Merged PR #318</div>
+          <div class="meta">Project led by Prof. Juncheng Yang (Harvard University)</div>
+          <div class="title">MultiQueue cache-eviction algorithm</div>
+          <p>Implemented MultiQueue cache eviction in C with frequency-based queues, time-based demotion, and a ghost buffer. Added tests and benchmarked against seven cache policies.</p>
+          <p class="links">
+            <a href="https://github.com/1a1a11a/libCacheSim/pull/318" target="_blank" rel="noopener">[pull request]</a>
+            <a href="https://github.com/1a1a11a/libCacheSim/issues/140" target="_blank" rel="noopener">[issue]</a>
+          </p>
+        </article>
+
+        <article class="highlight">
+          <div class="meta">SREGym · System reliability and agentic SRE · Merged PR #774</div>
+          <div class="title">GKE ran out of IP addresses</div>
+          <p>Recreated a GKE IP-exhaustion incident in Kubernetes using a constrained Calico address pool. Added repeatable fault injection, cleanup, and agent evaluation.</p>
+          <p class="links">
+            <a href="https://github.com/SREGym/SREGym/pull/774" target="_blank" rel="noopener">[pull request]</a>
+            <a href="https://deploy.live/blog/when-gke-ran-out-of-ip-addresses/" target="_blank" rel="noopener">[incident]</a>
+          </p>
+        </article>
+
+        <article class="highlight">
+          <div class="meta">SREGym · System reliability and agentic SRE · Merged PR #791</div>
+          <div class="title">Feature-flag latent bug in the Hotel Reservation application</div>
+          <p>Modeled Fastly’s 2021 outage using a feature flag that triggers HTTP 500 errors while pods remain healthy. Added a reversible trigger and automated recovery checks.</p>
+          <p class="links">
+            <a href="https://github.com/SREGym/SREGym/pull/791" target="_blank" rel="noopener">[pull request]</a>
+            <a href="https://www.fastly.com/blog/summary-of-june-8-outage" target="_blank" rel="noopener">[incident]</a>
+          </p>
+        </article>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+
+        <article class="item">
+          <div class="title">Research Assistant, Tanta University <span class="date">(October 2025–present)</span></div>
+          <div class="meta">Robustness under distribution shift · Advised by Prof. Mohamed T. Faheem Saidahmd</div>
+          <ul>
+            <li>Investigate domain generalization for diabetic-retinopathy grading across camera hardware, acquisition protocols, and patient demographics.</li>
+            <li>Study representation-learning strategies that reduce cross-domain degradation without using target-domain labels.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="title">Research Intern, University of Illinois Urbana-Champaign <span class="date">(May–August 2026)</span></div>
+          <div class="meta">System Reliability and Agentic SRE · Remote · Advised by Prof. Tianyin Xu</div>
+          <ul>
+            <li>Investigated how LLM-based SRE agents diagnose and remediate realistic failures in cloud-native systems.</li>
+            <li>Studied how real production incidents can be translated into reproducible SREGym scenarios while preserving their causal structure and diagnostic difficulty.</li>
+            <li>Evaluated agents on realistic failure scenarios and identified limitations in cross-namespace reasoning and configuration-to-symptom correlation.</li>
+            <li>Analyzed large-scale cloud-outage postmortems to determine which failure mechanisms project faithfully into benchmark environments.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="title">Teaching Assistant, Tanta University <span class="date">(September 2024–present)</span></div>
+          <div class="meta">Computer Engineering and Artificial Intelligence Departments</div>
+          <p>Lead instruction across the undergraduate curriculum, including:</p>
+          <ul>
+            <li>Machine Learning — Spring 2026</li>
+            <li>Artificial Intelligence — Spring 2025 and 2026</li>
+            <li>Operating Systems — Fall 2024 and 2025</li>
+            <li>Data Structures and Algorithms — Fall 2024 and 2025</li>
+            <li>Object-Oriented Programming — Spring 2025</li>
+            <li>Structural Programming with Python and C++ — 2024–2025</li>
+            <li>Coached 11 teams at the 2023 Egyptian Collegiate Programming Contest, six as head coach.</li>
+          </ul>
+        </article>
+
+        <article class="item">
+          <div class="title">AI, Data Science, and Cloud Engineer Trainee <span class="date">(January–September 2024)</span></div>
+          <div class="meta">Digital Egypt Builders Initiative, Cairo</div>
+          <p>Completed intensive training in artificial intelligence, data science, and cloud engineering through Egypt's national digital-talent initiative.</p>
+        </article>
+
+        <article class="item">
+          <div class="title">Software Engineering Intern, Ithra Services Ltd <span class="date">(July–September 2022)</span></div>
+          <ul>
+            <li>Engineered RESTful APIs with MongoDB CRUD models and documented them with JSON Schema and Postman.</li>
+            <li>Implemented JWT authentication, payment hooks, and Docker-based service packaging.</li>
+            <li>Automated AWS EC2 deployments with GitHub Actions and Ansible.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="projects">
+        <h2>Selected Projects</h2>
+        <article class="highlight">
+          <div class="title">LLM Inference Engineering — Systems from First Principles</div>
+          <ul>
+            <li>Studied LLM inference internals including attention, KV-cache behavior, model-weight movement, and the distinction between compute-bound prefill and memory-bound autoregressive decoding.</li>
+            <li>Built PyTorch experiments for attention FLOPs, memory traffic, arithmetic intensity, batching, and sequence-length scaling; used roofline-style reasoning to explain inference bottlenecks and GPU utilization.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="compact-grid">
+          <div class="item">
+            <div class="title">Systems and Infrastructure</div>
+            <p>Kubernetes · Docker · Terraform · Ansible · Jenkins · GitHub Actions · Argo CD · Helm · Calico CNI · Git</p>
+          </div>
+          <div class="item">
+            <div class="title">Programming Languages</div>
+            <p>Python · C/C++ · Go · Java · JavaScript · Bash · VHDL</p>
+          </div>
+          <div class="item">
+            <div class="title">Machine Learning</div>
+            <p>PyTorch · TensorFlow · Scikit-learn · Transformers · LLMs · RAG · LoRA · Fine-tuning · Quantization · ONNX Runtime · MLflow</p>
+          </div>
+          <div class="item">
+            <div class="title">Backend and Data</div>
+            <p>MySQL · MongoDB · Pinecone · Flask · Node.js · RESTful APIs · RPC</p>
+          </div>
+          <div class="item">
+            <div class="title">Cloud and Observability</div>
+            <p>AWS EC2 · ECS · ECR · S3 · ALB · Route 53 · Prometheus · Grafana · Elasticsearch · Fluent Bit · Kibana · Jaeger</p>
+          </div>
+          <div class="item">
+            <div class="title">Languages</div>
+            <p>Arabic · English</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="awards">
+        <h2>Awards and Achievements</h2>
+        <ul>
+          <li><strong>4th of 150+ students</strong> — graduating class, Tanta University; Excellent with honors.</li>
+          <li><strong>Top Students Financial Award</strong> — Tanta University, 2019–2023.</li>
+          <li><strong>ACM-ICPC ECPC Finalist</strong> — 2021 and 2022.</li>
+          <li><strong>2nd place</strong> — Tanta University Collegiate Programming Contest, 2021 and 2022; 8th place in 2020.</li>
+          <li><strong>Digital Egypt Builders Initiative</strong> — selected for the competitive national graduate program in 2024.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Mohammad Elsharqawy ·
+        <a href="mailto:Mohammad_Elsharqawy@f-eng.tanta.edu.eg">Email</a> ·
+        <a href="tel:+201018424238">Phone</a> ·
+        <a href="https://github.com/MohammadElsharqawy" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/mohammad-elsharqawy-a86991190/" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+      <p>New Administrative Capital, Egypt · © 2026 Mohammad Elsharqawy</p>
+    </footer>
+  </div>
+
+
+</body>
+</html>
